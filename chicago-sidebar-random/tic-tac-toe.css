@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  text-align: center;
+  width: 94px;
+  height: 47px;
+  background-color: gray;
+}
+
+caption {
+  color: gray;
+}
+
+.unclicked:hover {
+  background-color: #d3d3d3;
+}
+
+.blue-background {
+  color: #d3d3d3;
+  background-color: blue;
+}
+
+.left {
+  float: left;
+}
+
+.year {
+  border: thin solid #007e7e;
+  width: 200px;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-repeat: repeat-x;
+  line-height: 1;
+  float: right;
+}
