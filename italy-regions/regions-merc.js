@@ -1,0 +1,1 @@
+$(function(){$('#map').vectorMap({map: 'it_regions_merc'});});
