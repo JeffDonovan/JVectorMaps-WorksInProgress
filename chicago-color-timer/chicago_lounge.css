@@ -1,0 +1,146 @@
+body {
+  background-color: #d2b48c;
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  color: black;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+#guarantee {
+/*  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #444444;
+  border: 1px dashed white;
+  background-color: #a7cece;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  margin-right: 250px;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+*/}
+
+#elixirs {
+  border: thin solid #007e7e;
+  width: 256px;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: gray;
+  background-repeat: repeat-x;
+  line-height: 1;
+  float: right;
+}
+
+#elixirs h2 {
+  color: black;
+}
+
+#elixirs h3 {
+  color: #d12c47;
+}
+
+#footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.cd {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+a:link {
+  color: #007e7e;
+}
+
+a:visited {
+  color: #333333;
+}
+
+#elixirs a:link {
+  color: #007e7e;
+}
+
+#elixirs a:visited {
+  color: #333333;
+}
+
+#elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+
+/* New Stuff Written March 23, 2015 */
+#over90white p {
+  color: #6666cc;
+}
+
+#over70white p {
+  color: #7788fe;
+}
+#over60white p {
+  color: #cfceff;
+}
+#over90black p {
+  color: #ca2233;
+}
+#over70black p {
+  color: #ee6678;
+}
+#over60black p {
+  color: #fe9999;
+}
+#over80latino p {
+  color: #edee55;
+}
+#over60latino p {
+  color: #efee92;
+}
+#over60asian p {
+  color: #3ab24c;
+}
+
+#noMajority p {
+  color: #bb44dd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
