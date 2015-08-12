@@ -449,43 +449,43 @@ $(function(){
     }
   });
   map.series.regions[0].setValues(chicago1910colors());
-  $('#chicago-1910-colors').click(function(e){
+  $('#1910').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1910colors());
   });
-  $('#chicago-1920-colors').click(function(e){
+  $('#1920').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1920colors());
   });
-  $('#chicago-1930-colors').click(function(e){
+  $('#1930').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1930colors());
   });
-  $('#chicago-1940-colors').click(function(e){
+  $('#1940').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1940colors());
   });
-  $('#chicago-1950-colors').click(function(e){
+  $('#1950').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1950colors());
   });
-  $('#chicago-1960-colors').click(function(e){
+  $('#1960').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1960colors());
   });
-  $('#chicago-1970-colors').click(function(e){
+  $('#1970').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1970colors());
   });
-  $('#chicago-1980-colors').click(function(e){
+  $('#1980').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1980colors());
   });
-  $('#chicago-1990-colors').click(function(e){
+  $('#1990').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago1990colors());
   });
-  $('#chicago-2000-colors').click(function(e){
+  $('#2000').click(function(e){
     e.preventDefault();
     map.series.regions[0].setValues(chicago2000colors());
   });
