@@ -437,6 +437,95 @@ $(function(){
         return colors;
       },
 
+      chicago2010colors = function(){
+        var colors = {},
+            key;
+
+        for (key in map.regions) {
+          colors[key] = over90white;
+        }
+
+        colors[1]  = noMajority;
+        colors[2]  = noMajority;
+        colors[3]  = noMajority;
+        colors[4]  = over60white;
+        colors[5]  = over70white;
+        colors[6]  = over70white; // Exacty 80%
+        colors[7]  = over70white;
+        colors[8]  = over70white;
+        colors[9]  = over70white;
+        colors[10] = over70white;
+        colors[11] = over60white;
+        colors[12] = over70white;
+        colors[13] = noMajority;
+        colors[14] = noMajority;
+        colors[15] = noMajority;
+        colors[16] = noMajority;
+        colors[17] = over70white; // Exactly 70%
+        colors[18] = noMajority;
+        colors[19] = over60latino;
+        colors[20] = over80latino;
+        colors[21] = over60latino;
+        colors[22] = noMajority;
+        colors[23] = noMajority;
+        colors[24] = noMajority;
+        colors[25] = over70black;
+        colors[26] = over90black;
+        colors[27] = over90black;
+        colors[28] = noMajority;
+        colors[29] = over90black;
+        colors[30] = over80latino;
+        colors[31] = over80latino;
+        colors[32] = over60white;
+        colors[33] = noMajority;
+        colors[34] = over60asian;
+        colors[35] = over70black;
+        colors[36] = over90black;
+        colors[37] = over90black;
+        colors[38] = over90black;
+        colors[39] = over70black;
+        colors[40] = over90black;
+        colors[41] = noMajority;
+        colors[42] = over70black;
+        colors[43] = over90black;
+        colors[44] = over90black;
+        colors[45] = over90black;
+        colors[46] = over60black;
+        colors[47] = over90black;
+        colors[48] = over90black;
+        colors[49] = over90black;
+        colors[50] = over70black;
+        colors[51] = over60black;
+        colors[52] = over60latino;
+        colors[53] = over90black;
+        colors[54] = over90black;
+        colors[55] = noMajority;
+        colors[56] = noMajority;
+        colors[57] = over60latino;
+        colors[58] = over80latino;
+        colors[59] = over60latino;
+        colors[60] = noMajority;
+        colors[61] = noMajority;
+        colors[62] = over60latino;
+        colors[63] = over80latino;
+        colors[64] = noMajority;
+        colors[65] = over70white;
+        colors[66] = noMajority;
+        colors[67] = over90black;
+        colors[68] = over90black;
+        colors[69] = over90black;
+        colors[70] = noMajority;
+        colors[71] = over90black;
+        colors[72] = noMajority;
+        colors[73] = over90black;
+        colors[74] = over70white;
+        colors[75] = over60black;
+        colors[76] = over70white;
+        colors[77] = noMajority;
+
+        return colors;
+      },
+
       map;
 
   map = new jvm.WorldMap({
@@ -489,6 +578,11 @@ $(function(){
     e.preventDefault();
     map.series.regions[0].setValues(chicago2000colors());
   });
+  $('#2010').click(function(e){
+    e.preventDefault();
+    map.series.regions[0].setValues(chicago2010colors());
+  });
+
 
   function year1910() {
     document.getElementById("demo").innerHTML = "1910";
@@ -520,6 +614,10 @@ $(function(){
   function year2000() {
     document.getElementById("demo").innerHTML = "2000";
   }
+  function year2010() {
+    document.getElementById("demo").innerHTML = "2010";
+  }
+
   
 
 
@@ -531,4 +629,4 @@ $(function(){
 
 
 
-})
+});

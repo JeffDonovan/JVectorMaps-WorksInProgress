@@ -103,6 +103,10 @@ function flashText() {
     if (year === 2000) {
       map.series.regions[0].setValues(chicago2000colors());
     }
+    if (year === 2010) {
+      map.series.regions[0].setValues(chicago2010colors());
+    }
+
 
 
     previousYear = year;
