@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <title>Chicago Demographics Map</title>
+
+  <script src="../basic/jquery-1.10.2.js"></script>
+  <!-- // <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+  <meta charset="utf-8">
+  <script src="../basic/jquery-jvectormap-1.2.2.min.js"></script>
+  <link rel="stylesheet" href="../basic/jquery-jvectormap-1.2.2.css" type="text/css" media="screen"/>
+
+  <script src="../basic/cities/jquery-jvectormap-us-il-chicago-mill-en.js"></script>
+  <script type="text/javascript" src="chicago_static_colors.js"></script>
+  <link type="text/css" rel="stylesheet" href="chicago_lounge.css">
+
+  <link type="text/css" rel="stylesheet" href="tic-tac-toe.css">
+  <script src="tic-tac-toe.js"></script>
+</head>
+<body>
+  <div id="my_box">
+    <h1>Chicago Racial Demographics by decade</h1>
+  </div>
+
+  <div class='year'>
+    <table>
+      <caption>Year</caption>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1910' class ='blue-background'>1910</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1920'>1920</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1930'>1930</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1940'>1940</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1950'>1950</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1960'>1960</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1970'>1970</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1980'>1980</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='1990'>1990</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='2000'>2000</td>
+      </tr>
+      <tr>
+        <td><p>Percent</p></td>
+        <td id='2010'>2010</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="map" style="width: 700px; height: 700px"></div> <br>
+
+  <div id="footer">
+    <small>
+      &copy; 2015, Jeff Donovan<br>
+      All logos and registered trademarks appearing on this site are 
+      the property of their respective owners.<br>
+      All logos and registered trademarks are used within their respective guidelines.<br>
+    </small>
+  </div>
+</body>
+</html>
